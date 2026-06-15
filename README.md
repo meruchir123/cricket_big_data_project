@@ -73,7 +73,7 @@ The Bronze Layer stores raw API responses without applying business transformati
 
 #### Bronze Layer Data
 
-![Bronze Layer](images/bronze.png)
+![Bronze Layer](images/bronze.PNG)
 
 ---
 
@@ -92,11 +92,11 @@ The Silver Layer transforms nested JSON data into a structured and analytics-rea
 
 #### Silver Schema
 
-![Silver Schema](images/silver_schema.png)
+![Silver Schema](images/silver_schema.PNG)
 
 #### Silver Sample Data
 
-![Silver Sample Data](images/silver_example.png)
+![Silver Sample Data](images/silver_example.PNG)
 
 ---
 
@@ -113,11 +113,11 @@ The Gold Layer contains business-ready analytical datasets generated from Silver
 
 #### Gold Analytics Query Result
 
-![Gold Query](images/gold_query.png)
+![Gold Query](images/gold_1.PNG)
 
 #### Gold Analytics Visualization
 
-![Gold Chart](images/gold_chart.png)
+![Gold Chart](images/gold_2.PNG)
 
 ---
 
@@ -127,7 +127,7 @@ The pipeline is orchestrated using Databricks Jobs with task dependencies.
 
 ### Workflow DAG
 
-![Pipeline DAG](images/dag.png)
+![Pipeline DAG](images/dag.PNG)
 
 ### Execution Flow
 
@@ -149,7 +149,7 @@ This ensures that each layer executes only after the previous layer completes su
 
 The screenshot below demonstrates a successful end-to-end pipeline run.
 
-![Job Runs](images/runs.png)
+![Job Runs](images/runs.PNG)
 
 ---
 
