@@ -115,9 +115,9 @@ The Gold Layer contains business-ready analytical datasets generated from Silver
 
 ![Gold Query](images/gold_1.PNG)
 
-#### Gold Analytics Visualization
+#### Gold Analytics Query Result
 
-![Gold Chart](images/gold_2.PNG)
+![Gold Query](images/gold_2.PNG)
 
 ---
 
